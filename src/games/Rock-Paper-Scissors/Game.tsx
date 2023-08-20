@@ -147,8 +147,6 @@ function Game(): JSX.Element {
     }
   });
 
-  console.log(previousActions);
-
   return (
     <div className="center" style={{ margin: "0vh auto" }}>
       <h1>Rock Paper Scissors</h1>

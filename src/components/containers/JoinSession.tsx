@@ -47,8 +47,6 @@ const JoinSessionPopup: React.FC<JoinSessionPopupProps> = ({
   const popupRef = useRef<HTMLDivElement>(null);
 
   const joinSession = (session: Session) => {
-    console.log(session.name);
-
     setSessionName(session.name ?? "");
     joinRoom(nickname, session.name ?? "");
   };

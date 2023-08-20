@@ -10,8 +10,6 @@ const SecondGame: React.FC = () => {
     setJoinedToGame4G(false);
   };
 
-  console.log(opponentNick);
-
   return (
     <div
       className="SecondGame"

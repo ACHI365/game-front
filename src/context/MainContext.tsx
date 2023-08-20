@@ -160,7 +160,6 @@ const MainProvider: React.FC<MainContextProps> = ({ children }) => {
         } else {
           setOpponentNick("");
         }
-        console.log(users);
       });
 
       connection.onclose((e) => {
@@ -174,7 +173,6 @@ const MainProvider: React.FC<MainContextProps> = ({ children }) => {
         sessionName,
         uniqueId,
       });
-      console.log(response);
       setLoading(false);
       if (response.statusCode === 200) {
         setConnection(connection);

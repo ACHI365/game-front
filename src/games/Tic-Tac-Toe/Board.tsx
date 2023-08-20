@@ -129,12 +129,6 @@ function Board({ result, setResult }: BoardProps): JSX.Element {
     restartGame();
   });
 
-  interface PlayerProps {
-    name?: string;
-    score?: number;
-    action?: string;
-  }
-
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <div className="scoreboard">
