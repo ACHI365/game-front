@@ -1,0 +1,37 @@
+.session-list {
+    max-height: 20rem;
+    overflow-y: auto;
+  }
+  
+  .session-list::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  .session-list::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .session-list::-webkit-scrollbar-thumb {
+    background: #112240;
+    border-radius: 10px;
+  }
+  
+  .session-name {
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .session-users {
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: right;
+  }
+  
+  .odd {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .even {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  

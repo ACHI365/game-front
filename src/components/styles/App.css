@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #112240; 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.submit-button {
+  background-color: #26528c; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.submit-button:hover {
+  background-color: #1e4580; 
+}
+.submit-button:active {
+  background-color: #173166;
+}
+
+.board {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 33%;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  flex: 33%;
+  height: 100%;
+  border: 5px solid black;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2px;
+}
+
+.square:active {
+  background-color: lightgray;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+}
