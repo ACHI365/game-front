@@ -270,7 +270,7 @@ const MainProvider: React.FC<MainContextProps> = ({ children }) => {
 
   return (
     <MainContext.Provider value={contextValue}>
-      {loading ? <>Loading...</> : children}
+      {loading ? <h1 style={{textAlign:"center", color:"white", fontSize:"75px", margin:"35vh auto"}}>Loading...</h1> : children}
     </MainContext.Provider>
   );
 };
