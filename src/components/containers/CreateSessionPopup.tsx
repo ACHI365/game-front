@@ -86,9 +86,6 @@ const CreateSessionPopup: React.FC<CreateSessionPopupProps> = ({
         >
           Create Session
         </button>
-        {errorMessage && (
-          <p className="error-message text-red-600">{errorMessage}</p>
-        )}
       </div>
     </div>
   );
